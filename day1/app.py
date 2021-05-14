@@ -27,7 +27,7 @@ def create_menu(): # request가 JSONdlfkrh rkwjd
     # JSON Parsing with .get_json()
     request_data = request.get_json() # {"name": ... }
     new_menu = {
-        "id": 4,
+        "id": menus[-1]['id'] + 1,
         "name": request_data['name'],
         "price": request_data['price']
     }
