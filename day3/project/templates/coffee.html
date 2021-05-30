@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Item List</title>
+</head>
+<body>
+    <h1>My coffee List</h1>
+    {% for item in item_list %}
+        <p>{{ item.name }}, {{ item.price }}</p>
+    {% endfor %}
+
+    <form method="POST">
+        {% csrf_token %}
+        {{ item_form.as_p }}
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
