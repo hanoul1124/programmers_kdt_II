@@ -1,3 +1,21 @@
 
 >
 config/asgi.py,5/9/597ed58946079f795070145abd2ba40aaf51a0ae
+D
+templates/index.html,f/6/f69b8ce2e31684ae06f1b3e84821e07e3dfddb2f
+>
+config/urls.py,4/5/45b243d494ecd78f07818174452843086c64845d
+B
+config/settings.py,7/6/769aa6664d3e5c284cbfb95fd9848a351a2e4e2b
+A
+homepage/admin.py,2/2/22c04b5b2443b558b25d8c2becba780ea2c25def
+B
+homepage/models.py,f/6/f62c1d58c6260628548a256f82f88f6ccacff451
+@
+homepage/urls.py,9/d/9dda69e2f491f343cca724f30d37203ea9bcdb59
+A
+homepage/forms.py,8/c/8ccdd8d0e0de50e246ce13752f7ad5a16ee4fa82
+E
+templates/coffee.html,b/4/b459ac4638082943d3879205ab0922912b9c5c37
+A
+homepage/views.py,e/1/e1806709f83a5bc351544e96972c1260ed50488e
